@@ -12,6 +12,13 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <style>
       * {
@@ -20,10 +27,10 @@
     </style>
   </head>
 
-  <body class="">
-    <div class="flex flex-col h-[80vh] md:h-[120vh] bg-[#5A0B4D]">
-      <div class="mx-14">
-        <div class="flex justify-between items-center whitespace-nowrap">
+  <body>
+    <div>
+      <div class="flex flex-col xs:h-[90h] md:h-[95vh] lg:h-[100vh] bg-[#5A0B4D]">
+        <div class="flex justify-between items-center whitespace-nowrap mx-10">
           <div>
             <img
               src="./images/selar-white-logo.png"
@@ -65,10 +72,10 @@
         </div>
 
         <div
-          class="flex flex-col items-center text-center space-y-10 text-white mt-[8%]"
+          class="flex flex-col items-center text-center space-y-10 text-white mt-[8%] mx-10"
         >
           <p class="text-lg font-bold">MAKE MORE SALES</p>
-          <h1 class="text-4xl md:text-5xl font-bold max-w-[700px]">
+          <h1 class="text-2xl md:text-5xl font-bold max-w-[700px]">
             The best way to sell your digital products online
           </h1>
           <h3 class="text-[16px] md:text-1xl max-w-xl md:max-w-lg">
@@ -80,7 +87,7 @@
           >
         </div>
       </div>
-      <div class="relative max-w-max m-auto">
+      <div class="relative max-w-max m-auto top-[-120px] md:top-[-130px]">
         <img src="./images/hero_web.png" class="hidden md:flex" alt="" />
         <img src="./images/hero_mobile.png" class="flex md:hidden" alt="" />
       </div>
@@ -756,7 +763,7 @@
 
       <div
         style="background-image: linear-gradient(90deg, #361831, #43103a)"
-        class="px-20 relative flex flex-col pt-20 justify-center items-center"
+        class="px-5 md:px-20 relative flex flex-col pt-20 justify-center items-center"
       >
         <img
           class="absolute left-0 bottom-0 z-10"
@@ -791,7 +798,7 @@
           </p>
         </div>
         <div
-          class="flex flex-wrap justify-center items-center m-auto space-x-6 max-w-[500px] gap-y-7 mb-20 md:mb-0"
+          class="flex flex-wrap justify-center items-center m-auto space-x-6 max-w-[350px] md:max-w-[450px] gap-1 md:gap-7 mb-20 md:mb-0"
         >
           <img src="./images/paypal.svg" alt="" />
           <img src="./images/mpesa.svg" alt="" />
@@ -1062,27 +1069,280 @@
             </h3>
             <a href="#" class="text-blue-500 font-bold">Learn more</a>
           </div>
-
-          
-          
         </div>
-        <div class="mt-30 text-center"><a href="#" class="px-7 py-5 bg-[#43103a] text-white text-bold rounded-md ">See all features</a></div>
+        <div class="mt-30 text-center">
+          <a
+            href="#"
+            class="px-7 py-5 bg-[#43103a] text-white text-bold rounded-md"
+            >See all features</a
+          >
+        </div>
       </div>
 
       <div class="flex flex-col justify-center items-center py-30">
-        <h1 class="text-4xl font-bold text-gray-900 max-w-[600px] text-center">Seamlessly integrate Selar with your favourite tools</h1>
-        <p class="text-[16px] font-normal mt-10 text-gray-800">Double your conversion by integrating your favorite tools on Selar.</p>
-        <div class="flex gap-1 flex-wrap items-center justify-center max-w-[700px] mt-10">
-          <img src="./images/facebook.svg" alt="">
-          <img src="./images/mailchip.svg" alt="">
-          <img src="./images/coverKit.svg" alt="">
-          <img src="./images/karta.svg" alt="">
-          <img src="./images/Zapier.svg" alt="">
+        <h1 class="text-4xl font-bold text-gray-900 max-w-[600px] text-center">
+          Seamlessly integrate Selar with your favourite tools
+        </h1>
+        <p
+          class="text-[16px] font-normal mt-10 text-gray-800 mx-10 md:mx-0 text-center"
+        >
+          Double your conversion by integrating your favorite tools on Selar.
+        </p>
+        <div
+          class="flex gap-1 flex-wrap items-center justify-center max-w-[700px] mt-10"
+        >
+          <img src="./images/facebook.svg" alt="" />
+          <img src="./images/mailchip.svg" alt="" />
+          <img src="./images/coverKit.svg" alt="" />
+          <img src="./images/karta.svg" alt="" />
+          <img src="./images/Zapier.svg" alt="" />
         </div>
         <p class="text-[16px] font-normal mt-10 text-gray-800">and more!</p>
-        <div class="mt-30 text-center"><a href="#" class="px-7 py-5 bg-[#43103a] text-white text-bold rounded-md">See all integration</a></div>
+        <div class="mt-30 text-center">
+          <a
+            href="#"
+            class="px-7 py-5 bg-[#43103a] text-white text-bold rounded-md"
+            >See all integration</a
+          >
+        </div>
       </div>
 
+      <div class="flex flex-col py-20 justify-center items-center bg-[#43103a]">
+        <div class="text-center">
+          <h1 class="text-4xl font-bold text-white">
+            Don't take our word for it
+          </h1>
+          <p class="text-[20px] text-white mx-15">
+            See what some of our customers have to say about using Selar.
+          </p>
+        </div>
+        <div class="mx-1 md:mx-10 max-w-[900px] p-1 md:p-10">
+          <div
+            class="relative bg-white px-10 py-10 md:px-30 md:py-20 rounded-lg mt-15 mx-5"
+          >
+            <img
+              src="./images/selar-testimonial-eva.png"
+              class="absolute top-0 left-[50%] translate-y-[-50%] translate-x-[-50%] md:translate-y-[-50%] md:translate-x-[-50%] md:left-0 rounded-full md:max-w-[150px] max-w-[100px]"
+              alt=""
+            />
+            <div class="">
+              <h1 class="font-[8px] md:font-[16px] mt-[30px] md:mt-0">
+                I am happy to have been one of the best to try Selar. It has
+                always been an easy to use platform and I have sold just about
+                everything on Selar - Physical Products, Digital Products even
+                tickets. It is a much more robust platform now than ever before
+                and my new favorite feature is the upsell, cause I have earned
+                more money thanks to that
+              </h1>
+              <p class="font-bold mt-6">Eva Alordiah</p>
+              <p class="font-[12px] text-gray-600 mt-5">
+                Author, Speaker & Founder at @Creatorialz
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div
+          class="flex flex-col md:flex-row px-5 md:px-20 py-20 gap-15 md:gap-50 items-center justify-center bg-[#cbdff663]"
+        >
+          <div class="max-w-[600px] text-center md:text-left">
+            <h1 class="text-4xl font-bold text-gray-800 mb-10">
+              Get started creating & selling digital products!
+            </h1>
+            <p class="text-gray-800 text-[16px] max-w-[500px]">
+              Whether you're a newbie or already selling digital products, we
+              collaborated with 12 experts to create
+              <span class="font-bold">
+                THE ULTIMATE DIGITAL PRODUCT MANUAL.
+              </span>
+              This free ebook will help you turn your knowledge into income via
+              selling digital products and building a successful online business
+              from home.
+            </p>
+            <div class="mt-15">
+              <a
+                class="px-7 py-5 bg-[#43103a] text-white text-bold rounded-md"
+                href="#"
+                >Get free ebook</a
+              >
+            </div>
+          </div>
+          <div>
+            <img src="./images/ebook-mockup.png" class="max-w-[300px]" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="flex flex-col gap-20 justify-center items-center mt-20 mx-10 md:40 m-auto"
+      >
+        <div>
+          <h1 class="text-center text-3xl md:text-4xl font-bold">Selar in the press</h1>
+          <div class="flex flex-wrap mt-10 gap-20 justify-center items-center">
+            <img src="./images/techcabal.png" class="max-w-30 md:max-w-40" alt="" />
+            <img src="./images/techpoint.png" class="max-w-30 md:max-w-40" alt="" />
+            <img src="./images/pulse-logo.png" class="max-w-30 md:max-w-40" alt="" />
+            <img src="./images/guardian-logo.png" class="max-w-30 md:max-w-40" alt="" />
+            <img src="./images/dada.png" class="max-w-30 md:max-w-40" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-[#43103a] mt-10 rounded-lg py-15 w-[85%] mx-auto">
+        <h1 class="text-center text-3xl texxt-bold text-white">
+          Start Selling with Selar
+        </h1>
+        <p class="text-center text-white text-[16px] mt-6 text-3xl">
+          Create a free account in less than 5 minutes and start selling!
+        </p>
+        <div
+          class="grid gap-4 mx-10 mt-10 md:flex md:flex-row md:justify-center md:items-center"
+        >
+          <a
+            href="#"
+            class="text-center px-10 py-4 rounded-lg text-[15px] text-[#43103a] bg-white"
+            >Get Started for free</a
+          >
+          <a
+            href="#"
+            class="text-center px-10 py-4 rounded-lg text-[15px] text-white text-[#43103a] border-solid border-[1px] border-white"
+            >See a live demo</a
+          >
+        </div>
+      </div>
+
+      <div class="w-[85%] justify-between flex flex-col md:flex-row gap-10 md:gap-30 mt-10 m-auto">
+        <div>
+          <div class="flex flex-col ">
+            <div>
+              <img
+                src="./images/selar-logo-small.png"
+                class="max-w-[70px]"
+                alt=""
+              />
+            </div>
+            <div class="flex justify-between md:justify-center gap-5 flex-row md:flex-col">
+              <div class="flex flex-row items-center gap-5">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#43103a"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="cursor-pointer feather feather-instagram hover:text-brand-secondary-dark"
+                >
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                  <path
+                    d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+                  ></path>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  width="20"
+                  height="20"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  fill="currentColor"
+                  stroke-width="1"
+                  class="cursor-pointer feather feather-twitter hover:text-brand-secondary-dark"
+                >
+                  <path
+                    d="M14.095479,10.316482L22.286354,1h-1.940718l-7.115352,8.087682L7.551414,1H1l8.589488,12.231093L1,23h1.940717  l7.509372-8.542861L16.448587,23H23L14.095479,10.316482z M11.436522,13.338465l-0.871624-1.218704l-6.924311-9.68815h2.981339  l5.58978,7.82155l0.867949,1.218704l7.26506,10.166271h-2.981339L11.436522,13.338465z"
+                  ></path>
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  stroke="#43103a"
+                  stroke-width="1"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="cursor-pointer feather feather-facebook hover:text-brand-secondary-dark"
+                >
+                  <path
+                    d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                  ></path>
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#43103a"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="cursor-pointer feather feather-youtube hover:text-brand-secondary-dark"
+                >
+                  <path
+                    d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"
+                  ></path>
+                  <polygon
+                    points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"
+                  ></polygon>
+                </svg>
+              </div>
+              <div
+                class="flex gap-1 items-center text-[20px] text-[#43103a] justify-center border-[1px] border-solid border-[#43103a] px-4 py-2 rounded-lg max-w-max"
+              >
+                <i class="fa-solid fa-globe"></i><a href="#" class="">EN<i class="fa-solid fa-angle-down text-[18px] ml-[5px]"></i></a>
+              </div>
+              <div class="hidden md:block text-gray-700">
+                © 2025 Selar. All Rights Reserved.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="grid gap-10 md:gap-30 grid-cols-2 md:grid-cols-3 justify-center items-start text-[16px] text-gray-700">
+            <div class="flex flex-col gap-6">
+              <a href=""><b>Products</b></a>
+              <a href="" class="hover:text-[#43103a]">How it works</a>
+              <a href="" class="hover:text-[#43103a]">Features</a>
+              <a href="" class="hover:text-[#43103a]">Pricing</a>
+              <a href="" class="hover:text-[#43103a]">Affiliates</a>
+              <a href="" class="hover:text-[#43103a]">Sell Courses</a>
+              <a href="" class="hover:text-[#43103a]">Show love</a>
+              <a href="" class="hover:text-[#43103a]">Tickets</a>
+              <a href="" class="hover:text-[#43103a]">Integrations</a>
+              <a href="" class="hover:text-[#43103a]">Affiliates Networks</a>
+            </div>
+            <div class="flex flex-col gap-6 text-[16px]">
+              <a href=""><b>Support & Resources</b></a>
+              <a href="" class="hover:text-[#43103a]">Blog</a>
+              <a href="" class="hover:text-[#43103a]">HelpDesk & Guides</a>
+              <a href="" class="hover:text-[#43103a]">Creator Academy</a>
+              <a href="" class="hover:text-[#43103a]">Free Product Promotional Canva Templates</a>
+              <a href="" class="hover:text-[#43103a]">Press & Media Kits</a>
+              <a href="" class="hover:text-[#43103a]">FAQs</a>
+            <a href="" class="hover:text-[#43103a]">Contact Us</a>
+            </div>
+            <div class="flex flex-col gap-6 text-[16px]">
+              <a href=""><b>Legal</b></a>
+              <a href="" class="hover:text-[#43103a]">Terms & Conditions</a>
+              <a href="" class="hover:text-[#43103a]">Privacy Policy</a>
+              <a href="" class="hover:text-[#43103a]">Copyright Policy</a>
+            </div>
+            <div class="block md:hidden text-gray-700">
+              <h1>© 2025 Selar. All Rights Reserved.</h1>
+            </div>
+          </div>  
+          
+        </div>
+      </div>
     </div>
   </body>
 </html>
