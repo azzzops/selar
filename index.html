@@ -29,7 +29,13 @@
 
   <body>
     <div>
-      <div class="flex flex-col h-[90vh] xs:h-[90vh] md:h-[95vh] lg:h-[120vh] bg-[#5A0B4D]">
+      <div
+        class="flex flex-col"
+        style="
+          --tw-bg-opacity: 1;
+          background-color: rgba(90, 11, 77, var(--tw-bg-opacity));
+        "
+      >
         <div class="flex justify-between items-center whitespace-nowrap mx-10">
           <div>
             <img
@@ -39,7 +45,7 @@
             />
           </div>
           <div
-            class="hidden space-x-7 text-xs md:flex md:space-x-4 md:text-xl text-white"
+            class="hidden space-x-7 text-xs md:flex md:space-x-2 lg:space-x-3 md:text-[12px] lg:text-[18px] text-white"
           >
             <a href="#" class="text-wrap">Home</a>
             <a href="#" class="text-wrap">How it works</a>
@@ -72,7 +78,7 @@
         </div>
 
         <div
-          class="flex flex-col items-center text-center space-y-10 text-white mt-[8%] mx-10"
+          class="flex flex-col items-center text-center space-y-7 text-white mt-[8%] mx-10"
         >
           <p class="text-lg font-bold">MAKE MORE SALES</p>
           <h1 class="text-2xl md:text-5xl font-bold max-w-[700px]">
@@ -86,15 +92,31 @@
             >Start Selling with Selar</a
           >
         </div>
+        
+        <div class="relative h-12 md:h-56"></div>
+        <div class="relative h-48 overflow-hidden">
+          <svg
+            preserveAspectRatio="none"
+            viewBox="0 0 1440 320"
+            class="w-full h-full text-white"
+            style="height: 100%; width: 100%"
+          >
+            <path
+              fill="currentColor"
+              fill-opacity="1"
+              d="M0,32L40,74.7C80,117,160,203,240,240C320,277,400,267,480,218.7C560,171,640,85,720,42.7C800,0,880,0,960,32C1040,64,1120,128,1200,138.7C1280,149,1360,107,1400,85.3L1440,64L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+            ></path>
+          </svg>
+        </div>
       </div>
-        <div class="max-w-max m-auto  mt-[-280px] md:mt-[-200px]">
+
+      <div class="relative top-[-300px] md:top-[-450px] max-w-max m-auto z-[2000]">
         <img src="./images/hero_web.png" class="hidden md:flex" alt="" />
         <img src="./images/hero_mobile.png" class="flex md:hidden" alt="" />
       </div>
-      
 
       <div
-        class="flex flex-col items-center justify-center mt-[100px] mb-[200px]"
+        class="relative flex flex-col items-center justify-center mt-[-260px] mb-[200px]"
       >
         <div class="flex justify-center">
           <img
@@ -1180,12 +1202,30 @@
         class="flex flex-col gap-20 justify-center items-center mt-20 mx-10 md:40 m-auto"
       >
         <div>
-          <h1 class="text-center text-3xl md:text-4xl font-bold">Selar in the press</h1>
+          <h1 class="text-center text-3xl md:text-4xl font-bold">
+            Selar in the press
+          </h1>
           <div class="flex flex-wrap mt-10 gap-20 justify-center items-center">
-            <img src="./images/techcabal.png" class="max-w-30 md:max-w-40" alt="" />
-            <img src="./images/techpoint.png" class="max-w-30 md:max-w-40" alt="" />
-            <img src="./images/pulse-logo.png" class="max-w-30 md:max-w-40" alt="" />
-            <img src="./images/guardian-logo.png" class="max-w-30 md:max-w-40" alt="" />
+            <img
+              src="./images/techcabal.png"
+              class="max-w-30 md:max-w-40"
+              alt=""
+            />
+            <img
+              src="./images/techpoint.png"
+              class="max-w-30 md:max-w-40"
+              alt=""
+            />
+            <img
+              src="./images/pulse-logo.png"
+              class="max-w-30 md:max-w-40"
+              alt=""
+            />
+            <img
+              src="./images/guardian-logo.png"
+              class="max-w-30 md:max-w-40"
+              alt=""
+            />
             <img src="./images/dada.png" class="max-w-30 md:max-w-40" alt="" />
           </div>
         </div>
@@ -1214,9 +1254,11 @@
         </div>
       </div>
 
-      <div class="w-[85%] justify-between flex flex-col md:flex-row gap-10 md:gap-30 mt-10 m-auto">
+      <div
+        class="w-[85%] justify-between flex flex-col md:flex-row gap-10 md:gap-30 mt-10 m-auto"
+      >
         <div>
-          <div class="flex flex-col ">
+          <div class="flex flex-col">
             <div>
               <img
                 src="./images/selar-logo-small.png"
@@ -1224,7 +1266,9 @@
                 alt=""
               />
             </div>
-            <div class="flex justify-between md:justify-center gap-5 flex-row md:flex-col">
+            <div
+              class="flex justify-between md:justify-center gap-5 flex-row md:flex-col"
+            >
               <div class="flex flex-row items-center gap-5">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -1299,7 +1343,10 @@
               <div
                 class="flex gap-1 items-center text-[20px] text-[#43103a] justify-center border-[1px] border-solid border-[#43103a] px-4 py-2 rounded-lg max-w-max"
               >
-                <i class="fa-solid fa-globe"></i><a href="#" class="">EN<i class="fa-solid fa-angle-down text-[18px] ml-[5px]"></i></a>
+                <i class="fa-solid fa-globe"></i
+                ><a href="#" class=""
+                  >EN<i class="fa-solid fa-angle-down text-[18px] ml-[5px]"></i
+                ></a>
               </div>
               <div class="hidden md:block text-gray-700">
                 © 2025 Selar. All Rights Reserved.
@@ -1308,7 +1355,9 @@
           </div>
         </div>
         <div>
-          <div class="grid gap-10 md:gap-30 grid-cols-2 md:grid-cols-3 justify-center items-start text-[16px] text-gray-700">
+          <div
+            class="grid gap-10 md:gap-30 grid-cols-2 md:grid-cols-3 justify-center items-start text-[16px] text-gray-700"
+          >
             <div class="flex flex-col gap-6">
               <a href=""><b>Products</b></a>
               <a href="" class="hover:text-[#43103a]">How it works</a>
@@ -1326,10 +1375,12 @@
               <a href="" class="hover:text-[#43103a]">Blog</a>
               <a href="" class="hover:text-[#43103a]">HelpDesk & Guides</a>
               <a href="" class="hover:text-[#43103a]">Creator Academy</a>
-              <a href="" class="hover:text-[#43103a]">Free Product Promotional Canva Templates</a>
+              <a href="" class="hover:text-[#43103a]"
+                >Free Product Promotional Canva Templates</a
+              >
               <a href="" class="hover:text-[#43103a]">Press & Media Kits</a>
               <a href="" class="hover:text-[#43103a]">FAQs</a>
-            <a href="" class="hover:text-[#43103a]">Contact Us</a>
+              <a href="" class="hover:text-[#43103a]">Contact Us</a>
             </div>
             <div class="flex flex-col gap-6 text-[16px]">
               <a href=""><b>Legal</b></a>
@@ -1340,8 +1391,7 @@
             <div class="block md:hidden text-gray-700">
               <h1>© 2025 Selar. All Rights Reserved.</h1>
             </div>
-          </div>  
-          
+          </div>
         </div>
       </div>
     </div>
